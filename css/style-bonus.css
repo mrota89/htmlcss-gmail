@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* classi utensile */
+.font-white {
+  font-size:25px;
+  color:#ffffff;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.border-bottom-section {
+  border-bottom: 2px #d6cfcf solid;
+  padding-bottom: 10px;
+}
+
+/* border row */
+.border {
+  border: solid black;
+}
+
+.border-bottom {
+  border-bottom: solid black;
+}
+
+.border-left-right {
+  border-left: solid black;
+  border-right: solid black;
+}
+/* /border row */
+
+.background-white {
+  background-color: white;
+}
+
+.background-grey {
+  background-color: #adadad;
+}
+/* /classi utensile */
+
+body {
+  background-image: url("../img/sfondo.jpg");
+}
+
+main {
+  margin-top: 10px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+#logo-gmail {
+  vertical-align: middle;
+}
+
+.incoming-mail {
+  padding-top: 10px;
+}
+
+.alert {
+  padding: 20px 0 15px 0;
+}
+
+#number-unread {
+  border-radius: 100px;
+  background-color: #f98b04;
+  text-align: center;
+  padding: 12px;
+  margin-right: 5px;
+}
+
+.subject-mail {
+  width: 20%;
+  font-weight: bold;
+}
+
+.body-mail {
+  width: 77%;
+  text-align: left;
+  color: #6d6a6a;
+}
+
+footer {
+  text-align: center;
+}
+
+#powered {
+  font-style: italic;
+  font-size: 15px;
+  color: #ffffff;
+}

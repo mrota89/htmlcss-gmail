@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <title>GMAIL</title>
+</head>
+
+<body>
+  <div class="container">
+    <!--intestazione con logo e nome -->
+    <header>
+      <img id= "logo-gmail" src="img/logo.png" alt="logo-gmail">
+      <span class="gmail inline-block font-white">Gmail</span>
+    </header>
+    <!--/intestazione con logo e nome -->
+
+    <main>
+      <!-- barra di ricerca e numero di mail non lette -->
+      <div class= "search">
+        <input type="text" placeholder="Search" value="">
+        <input type="submit" name="submit button" value="VAI">
+        <div class="alert font-white"> You have <span id="number-unread"> 30 </span> unread</div>
+      </div>
+      <!-- /barra di ricerca e numero di mail non lette -->
+
+      <!-- posta in arrivo -->
+      <div class="incoming-mail">
+        <!-- posta in arrivo, riga 1 -->
+        <div class="row border background-grey">
+          <input type="checkbox" name="flag email">
+          <span class="subject-mail"> &#9733; Oggetto della mail</span>
+          <span class="body-mail"> - testo della email</span>
+        </div>
+        <!-- /posta in arrivo, riga 1 -->
+
+        <!-- posta in arrivo, riga 2 -->
+        <div class="row border-bottom border-left-right background-white">
+          <input type="checkbox" name="flag email">
+          <span class="subject-mail"> &#9733; Oggetto della mail</span>
+          <span class="body-mail"> - testo della email</span>
+        </div>
+        <!-- /posta in arrivo, riga 2 -->
+
+        <!-- posta in arrivo, riga 3 -->
+        <div class="row border-left-right background-grey">
+          <input type="checkbox" name="flag email">
+          <span class="subject-mail"> &#9733; Oggetto della mail</span>
+          <span class="body-mail"> - testo della email</span>
+        </div>
+        <!-- /posta in arrivo, riga 3 -->
+
+        <!-- posta in arrivo, riga 4 -->
+        <div class="row border background-grey">
+          <input type="checkbox" name="flag email">
+          <span class="subject-mail"> &#9733; Oggetto della mail</span>
+          <span class="body-mail"> - testo della email</span>
+        </div>
+        <!-- /posta in arrivo, riga 4 -->
+      </div>
+      <!-- /posta in arrivo -->
+
+    </main>
+    <!-- piè di pagina -->
+    <footer>
+      <span class="font-white">GMail</span> <span id="powered">powered by Marcello</span>
+    </footer>
+    <!-- /piè di pagina -->
+  </div>
+</body>
+
+</html>
